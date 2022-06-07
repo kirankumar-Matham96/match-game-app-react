@@ -1,0 +1,25 @@
+.tab-item {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 8px 10px;
+  margin: 16px 0;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .tab-item {
+    padding: 8px 14px;
+    margin: 20px 0;
+    font-size: 18px;
+  }
+}
+
+.active-tab {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
